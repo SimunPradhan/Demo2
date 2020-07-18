@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="Folderforpackage/" kind="src" path="src"/>
+	<classpathentry excluding="src/|src/Folderforpackage/" kind="src" path=""/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-9">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/SWAYAM/Desktop/selenium-java-3.9.1/selenium-server-4.0.0-alpha-3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/SWAYAM/Downloads/sikulixapi-1.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/SWAYAM/Downloads/poi-4.1.2.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Testing" thread-count="1" parallel="methods" >
+<test name="testwithparameter">
+
+
+<parameter name="browser" value="firefox"/>
+<parameter name="url" value="https://www.facebook.com/"/>
+<parameter name="username" value="admin"/>
+<parameter name="password" value="admin"/>
+
+
+
+<classes>
+<class name="MainPackage.HandleParameter"/>
+<!-- </class> -->
+</classes>
+</test>
+</suite>
